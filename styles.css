@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+div{
+	width:400px;
+	height:250px;
+	background-color:blue;
+	padding:60px;
+	box-sizing:border-box;
+	
+}
+ div{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-radius:5px;
+}
+.btn{
+	height:22px;
+	marging:0px;
+	padding:0px;
+	background-color:#ffffff;
+	border:none;
+}
+.input{
+	height:20px;
+	marging:0px;
+	
+	border:none;
+}
+.search{
+	background-color:yellow;
+	outline-color:red;
+}
+input:focus{
+	outline:none;
+}
+
