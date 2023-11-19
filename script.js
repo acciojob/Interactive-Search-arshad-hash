@@ -6,7 +6,7 @@ let button=document.querySelector(".btn");
 
 button.addEventListener("click",Onclick);
 function Onclick(){
-	box.classList.add("search");
+	box.classList.add("active");
 	// JavaScript code
 input.focus();
 
